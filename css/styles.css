@@ -19,8 +19,7 @@ sans-serif; */
 
 ul {
     list-style: none;
-    margin: 0;
-    padding: 0;}
+    margin: 0;}
 
 a {
   text-decoration: none;
@@ -47,11 +46,15 @@ body {
 .page-header { background-color: #fff; 
 }
 
+.first-item {color: #404bbf}
+.first-item:hover,
+.first-item:focus {color:#404bbf}
+
 .main-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     color: #4d5ae5;
@@ -108,7 +111,7 @@ font-family: var(--font-family);
 
 }
 
-.order-button {box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.order-button {
     background: var(--iris);
 font-family: var(--font-family);
     font-weight: 500;
@@ -155,9 +158,7 @@ font-family: var(--font-family);
 .team {background: var(--cloud);
 }
 
-.team-list {border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+.team-list {border-radius: 0 0 4px 4px;    padding: 0px 0px 32px;
     background: var(--white);
 }
 
